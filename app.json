@@ -1,9 +1,9 @@
 {
-    "name": "Renamer Bot 4GB",
+    "name": "Rename VS Bot 4GB",
     "description": "Telegram File Renamer Bot 4GB",
     "logo": "https://graph.org/file/2c62c5c158d42b0dc8deb.jpg",
     "keywords": ["Premium Rename Bot", "Renamer Bot 4GB", "Mongo DB"],    
-    "repository": "https://github.com/JishuDeveloper/Rename-Bot-4GB",
+    "repository": "https://github.com/anji606/Rename-Bot-4GB",
     
     "env": {
         "API_ID": {
@@ -14,50 +14,50 @@
         
         "API_HASH": {
             "description": "Your API Hash From my.telegram.org ",
-            "value": "",
+            "value": "23647104",
             "required": true
         },
         
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": "",
+            "value": "7672085347:AAEiOie3st0Wd-1I6n_ulTZu0wIIvmjAbmo",
             "required": true
         },
         
         "ADMIN": {
             "description":"Add Your User ID, If Multiple Is Use Space To Split",
-            "value": "",
+            "value": "7889900386",
             "required": true
         },
         
         "STRING_SESSION": {
             "description": "Premium 4GB Client Pyrogram v2 String Session, You Can Get It From @StringGenXRobot",
-            "value": "",
-            "required": false
+            "value": "BQFo04AAQyBcJujrfBnQ04ybX4aVodCqZcNWetekkPYGJybI26YanMZZCVAd_nkAEXhFAe031PaMgv_VJhug3NlHAeGu2ZTLcaO2IKvMkOBzfOWmL6mmHixUEfIsXXQlMR1lk61AkD7oTiYUbQrN6a16yAYIQpKOhe4P9g_7IL6nkkFIZYO8rOew84d1XqcL936OqF627A4YbO9C5cGAk1M2JSP1wGOkcILB5h0lOiwpHUDN_uxO42xqp4NyqnL457_7mJRCfhfoIFe_uMQcammnHCZJlA8Aym4TJKHQwNoc8t3CkNWuNnUXvWZ6E7kl_sSeNMBefhxUwQFhh4oDr79umL8WVgAAAAHWRlNiAA",
+            "required": true
         },
         
         "FORCE_SUB": {
             "description": "Your Force Subscribe Channel Username Without @",
-            "value": "",
-            "required": false 
+            "value": "Cartoonworldtelugu_india",
+            "required": true
         },
         
         "LOG_CHANNEL": {
             "description":"Bot Logs Channel To Sending User Data & 4GB Premium Client To Use, Id Must Startswith -100",
-            "value": "",
+            "value": "-1002752116975",
             "required": true          
         },
         
         "DATABASE_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
-            "value": "",
+            "value": "mongodb+srv://anjireddyb885:MvL27Den1lu7TURr@cluster0.al34wge.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
             "required": true
         },
         
         "DATABASE_NAME":{ 
             "description":"Your Mongo DB Database Name",
-            "value": "JishuBotz",
-            "required": false
+            "value": "Cluster0",
+            "required": true
         },
         
         "START_PIC": {
