@@ -3,9 +3,9 @@ import os
 
 
 # Required Variables Config
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID", "23647104"))
+API_HASH = os.environ.get("API_HASH", "5df7d126ac228cb062a833bcc8c50bcd")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7672085347:AAEiOie3st0Wd-1I6n_ulTZu0wIIvmjAbmo")
 ADMIN = int(os.environ.get("ADMIN", ""))
 
 
@@ -19,8 +19,8 @@ LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
 
 
 # Mongo DB Database Config
-DATABASE_URL = os.environ.get("DATABASE_URL", "")
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "madflixbotz")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://anjireddyb885:MvL27Den1lu7TURr@cluster0.al34wge.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 
 # Other Variables Config
