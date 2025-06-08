@@ -6,16 +6,16 @@ import os
 API_ID = int(os.environ.get("API_ID", "23647104"))
 API_HASH = os.environ.get("API_HASH", "5df7d126ac228cb062a833bcc8c50bcd")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "7672085347:AAEiOie3st0Wd-1I6n_ulTZu0wIIvmjAbmo")
-ADMIN = int(os.environ.get("ADMIN", ""))
+ADMIN = int(os.environ.get("ADMIN", "7889900386"))
 
 
 # Premium 4GB Renaming Client Config
-STRING_SESSION = os.environ.get("STRING_SESSION", "")
+STRING_SESSION = os.environ.get("STRING_SESSION", "BQFo04AAQyBcJujrfBnQ04ybX4aVodCqZcNWetekkPYGJybI26YanMZZCVAd_nkAEXhFAe031PaMgv_VJhug3NlHAeGu2ZTLcaO2IKvMkOBzfOWmL6mmHixUEfIsXXQlMR1lk61AkD7oTiYUbQrN6a16yAYIQpKOhe4P9g_7IL6nkkFIZYO8rOew84d1XqcL936OqF627A4YbO9C5cGAk1M2JSP1wGOkcILB5h0lOiwpHUDN_uxO42xqp4NyqnL457_7mJRCfhfoIFe_uMQcammnHCZJlA8Aym4TJKHQwNoc8t3CkNWuNnUXvWZ6E7kl_sSeNMBefhxUwQFhh4oDr79umL8WVgAAAAHWRlNiAA")
 
 
 # Log & Force Channel Config
-FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+FORCE_SUBS = os.environ.get("FORCE_SUBS", "-1002024495069")
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002752116975"))
 
 
 # Mongo DB Database Config
