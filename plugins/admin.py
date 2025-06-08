@@ -58,13 +58,13 @@ async def resetpower(bot, message):
     
     
 
-# PREMIUM POWER MODE @JISHUDEVELOPER
+# PREMIUM POWER MODE @Vamsi_2008_vamsi
 @Client.on_callback_query(filters.regex('vip1'))
 async def vip1(bot,update):
     id = update.message.reply_to_message.text.split("/addpremium")
-    user_id = id[1].replace(" ", "")
-    inlimit  = 21474836500
-    uploadlimit(int(user_id),21474836500)
+    user_id = id[1].replace("6828129421", "")
+    inlimit  = 6828129421
+    uploadlimit(int(user_id),6828129421)
     usertype(int(user_id),"🪙 Basic")
     addpre(int(user_id))
     await update.message.edit("Added Successfully To Premium Upload Limit 20 GB")
